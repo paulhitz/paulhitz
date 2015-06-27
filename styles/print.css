@@ -1,0 +1,61 @@
+/**
+ * Print Stylesheet for paulhitz.com. This stylesheet is used for printing. 
+ * It hides all of the site except the content and uses more printer 
+ * friendly colours and fonts.
+ *
+ * @author Paul Hitz
+ * @version 060825
+ */
+
+
+/*
+ * Change the background color to white and the text to black.
+ * We use a printer friendly serif font and a font-size specified in points.
+ */
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+
+article, section {
+    border-width: 0;
+}
+
+/*
+ * We make the colours in the content column more printer friendly.
+ * And make the content take all available space.
+ */
+section {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * The navigation, header and footer are all superflous in a 
+ * printout so we hide them.
+ */
+#nav, header, footer {
+    display: none;
+}
+
+/*
+ * Highlight links.
+ */
+a:link, a:visited {
+    color: #520;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*
+ * The URL of links will be displayed after the link name.
+ */
+a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+}

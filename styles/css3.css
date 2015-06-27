@@ -1,0 +1,29 @@
+/**
+ * CSS3 stylesheet for www.paulhitz.com.
+ *
+ * @author Paul Hitz
+ * @version 100112
+ */
+
+
+section {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+section span.decorative {
+    border-radius: 10px;
+}
+#companyLogo {
+    border-radius: 10px;
+}
+footer img:hover {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;  
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+
+    -webkit-transform: rotate(360deg) scale(1.25);
+    -moz-transform: rotate(360deg) scale(1.25);
+    -o-transform: rotate(360deg) scale(1.25);
+    transform: rotate(360deg) scale(1.25);
+}

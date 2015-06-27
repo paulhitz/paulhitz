@@ -1,0 +1,117 @@
+/**
+ * Default stylesheet for www.paulhitz.com
+ *
+ * @author Paul Hitz
+ * @version 090301
+ */
+
+
+body {
+    background-color: #91aa9d;
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    height: 170px;
+    background-color: #222222;
+    background-image: url(../images/clouds_dark.png);
+    background-repeat: repeat-x;
+
+    border-bottom-width: 10px;
+    border-bottom-color: #373737;
+    border-bottom-style: solid;
+    border-top-width: 10px;
+    border-top-color: #373737;
+    border-top-style: solid;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo {
+    float: left; /* for IE7 */
+    border: 0;
+    width: 355px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#photos {
+    position: relative; /* for IE7 */
+    float: right;
+    margin-top: -30px;
+    width: 315px;
+    height: 255px;
+}
+
+section {
+    display: block;
+    background-color: #b0c1b8;
+    width: 600px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+
+    border-width: 10px;
+    border-color: #373737;
+    border-style: solid;
+
+    line-height: 1.5em;
+    font-size: medium;
+}
+section span.decorative {
+    margin-right: 5px;
+    margin-top: 6px;
+    padding: 5px;
+    float: left;
+
+    font-family: "Times New Roman", serif;
+    font-size: 6em;
+    color: #373737;
+    line-height: 75%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #373737;
+}
+article {
+    font-size: small;
+}
+footer {
+    display: block;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#companyLogo {
+    float: right; 
+    width: 64px; 
+    height: 64px; 
+    margin-left: 10px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #d40;
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+
