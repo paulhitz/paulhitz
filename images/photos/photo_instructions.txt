@@ -1,7 +1,0 @@
-
--Crop original image
--Resize original image to: 240x168
--paste into template (template.png)
--rotate (tools/transform tools/rotate) by an angle of +11.80
-
-

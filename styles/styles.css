@@ -54,9 +54,14 @@ header {
     position: relative; /* for IE7 */
     float: right;
     margin-top: -30px;
-    width: 315px;
-    height: 255px;
+    padding-top: 36px;
+    padding-left: 37px;
+    padding-bottom: 28px;
+    padding-right: 24px;
+    background-image: url(../images/photos/new_template4.png);
+    background-repeat: no-repeat;
 }
+
 
 section {
     display: block;
@@ -79,7 +84,6 @@ section {
 }
 section span.decorative {
     margin-right: 5px;
-    margin-top: 6px;
     padding: 5px;
     float: left;
 
