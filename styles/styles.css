@@ -58,7 +58,7 @@ header {
     padding-left: 37px;
     padding-bottom: 28px;
     padding-right: 24px;
-    background-image: url(../images/photos/new_template4.png);
+    background-image: url(../images/photos/template.png);
     background-repeat: no-repeat;
 }
 
@@ -103,12 +103,6 @@ footer {
     width: 50px;
     margin-right: auto;
     margin-left: auto;
-}
-#companyLogo {
-    float: right; 
-    width: 64px; 
-    height: 64px; 
-    margin-left: 10px;
 }
 
 a:link, a:visited, a:hover, a:active {

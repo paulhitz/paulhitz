@@ -13,9 +13,6 @@ section {
 section span.decorative {
     border-radius: 10px;
 }
-#companyLogo {
-    border-radius: 10px;
-}
 footer img:hover {
     transition: all 2s ease-in-out;
     transform: rotate(360deg) scale(1.25);
