@@ -5,17 +5,16 @@
  * @version 090301
  */
 
+html {
+    background-color: #91aa9d;
+}
 
 body {
-    background-color: #91aa9d;
-    background-image: url(../images/background.png);
-    background-repeat: repeat-x;
-    background-attachment: fixed;
-
+    background: linear-gradient(#3e606f, #91aa9d);
+    color: #000000;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: justify;
-    color: #000000;
     margin: 0;
     padding: 0;
 }
