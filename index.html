@@ -8,23 +8,24 @@
   <meta name="author" content="Paul Hitz" />
   <meta name="robots" content="index, follow" />
   <meta name="description" content="This is the personal website of Paul Hitz - A software developer from Ireland." />
-  <meta name="keywords" content="paulhitz, paul, hitz, cork, dublin, ucc, ireland, irish, software, engineer, tech, leader" />
+  <meta name="keywords" content="paulhitz, paul, hitz, cork, dublin, ucc, ireland, irish, software, engineer, developer, tech, leader" />
   <link href="humans.txt" rel="author" type="text/plain" />
   <link href="styles/styles.css" rel="stylesheet" type="text/css" />
   <link href="styles/css3.css" rel="stylesheet" type="text/css" />
   <link href="styles/print.css" rel="stylesheet" type="text/css" media="print" />
   <link rel="icon" href="favicon.ico" type="image/ico" />
+  <script src="scripts/scripts.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
   <![endif]-->
 </head>
-<body>
+<body onload="displayRandomPhoto();">
 
 <header>
   <div id="title">
     <a href="index.html"><img src="images/logo.png" alt="paulhitz.com" id="logo"/></a>
-    <img src="images/photos/1.jpg" width="256" height="192" alt="Random Photo. Reload for a different one." title="Reload the page for a different photo" id="photos" />
+    <img src="images/photos/placeholder.png" width="256" height="192" alt="Random Photo. Reload for a different one." title="Reload the page for a different photo" id="photo" />
   </div>
 </header>
 

@@ -1,0 +1,56 @@
+
+
+1) revert the responsive design
+2) add js to the image {DONE}
+3) find more images {DONE for now}
+4) Tidy all the code. 
+5) check the responsive design again
+6) github
+
+
+
+
+Photos:
+-add JS code for picking and displaying random image
+-sort out the photos
+	-find and add new ones
+
+
+
+Responsive web design:
+-Need to make it responsive.
+-use media queries.
+-hide or change the layout of some elements?
+
+
+
+
+Other:
+-update family tree? or just remove it?
+-consider updating the text
+-Is there anything else you want to add?
+-change the favicon. Use a portrait icon (a la bill gates in outlook).
+
+
+
+
+
+image should be resized to 1024x768
+
+
+
+About the repsonsive design
+	-it's getting frustrating
+	-undo it
+	-finish everything else
+	-come back to it. 
+
+
+
+
+
+
+
+
+
+
