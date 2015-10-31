@@ -3,7 +3,7 @@
 1) revert the responsive design
 2) add js to the image {DONE}
 3) find more images {DONE for now}
-4) Tidy all the code. 
+4) Tidy all the code. {DONE}
 5) check the responsive design again
 6) github
 
@@ -11,7 +11,7 @@
 
 
 Photos:
--add JS code for picking and displaying random image
+-add JS code for picking and displaying random image {DONE}
 -sort out the photos
 	-find and add new ones
 
@@ -30,13 +30,12 @@ Other:
 -consider updating the text
 -Is there anything else you want to add?
 -change the favicon. Use a portrait icon (a la bill gates in outlook).
-
+-Go with the HTML/CSS verion of the logo? Might be more flexible on mobile than the image.
 
 
 
 
 image should be resized to 1024x768
-
 
 
 About the repsonsive design

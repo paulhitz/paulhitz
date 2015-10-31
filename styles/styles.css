@@ -1,8 +1,5 @@
 /**
  * Default stylesheet for www.paulhitz.com
- *
- * @author Paul Hitz
- * @version 090301
  */
 
 html {
@@ -17,7 +14,7 @@ body {
     text-align: justify;
     margin: 0;
     padding: 0;
-	min-width: 750px;
+    min-width: 750px;
 }
 
 header {
@@ -39,7 +36,6 @@ header {
     margin-left: auto;
 }
 #logo {
-    float: left; /* for IE7 */
     border: 0;
     width: 355px;
     height: 80px;
@@ -47,11 +43,10 @@ header {
     margin-top: 50px;
 }
 #photo {
-
     position: relative; /* for IE7 */
     float: right;
-	width: 256px;
-	height: 192px;
+    width: 256px;
+    height: 192px;
     margin-top: -30px;
     padding-top: 36px;
     padding-left: 37px;
@@ -60,7 +55,6 @@ header {
     background-image: url(../images/photos/templates/template.png);
     background-repeat: no-repeat;
 }
-
 
 section {
     display: block;
@@ -78,10 +72,14 @@ section {
     border-color: #373737;
     border-style: solid;
 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
     line-height: 1.5em;
     font-size: medium;
 }
 section span.decorative {
+    border-radius: 10px;
     margin-right: 5px;
     padding: 5px;
     float: left;
@@ -94,14 +92,32 @@ section span.decorative {
     border-style: solid;
     border-color: #373737;
 }
+
 article {
     font-size: small;
 }
+
+#email {
+    width: 125px;
+    height: 15px;
+    margin-bottom: -3px;
+}
+
 footer {
     display: block;
     width: 50px;
     margin-right: auto;
     margin-left: auto;
+}
+footer img:hover {
+    transition: all 2s ease-in-out;
+    transform: rotate(360deg) scale(1.25);
+}
+
+#validate {
+    width: 51px;
+    height: 51px;
+    border: 0;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -112,7 +128,7 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-
+/*
 @media (max-width: 660px) {
   section {
     width: 80%;
@@ -121,5 +137,5 @@ a:hover, a:active {
     clear: both;
   }
 }
-
+*/
 
