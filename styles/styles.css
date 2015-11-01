@@ -43,7 +43,7 @@ header {
     margin-top: 50px;
 }
 #photo {
-    position: relative; /* for IE7 */
+    display: none;
     float: right;
     width: 256px;
     height: 192px;
@@ -121,10 +121,7 @@ footer img:hover {
 }
 
 a:link, a:visited, a:hover, a:active {
-    color: #d40;
-    text-decoration: none;
-}
-a:hover, a:active {
+    color: #000;
     text-decoration: underline;
 }
 

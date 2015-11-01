@@ -4,7 +4,7 @@
  */
 function displayRandomPhoto() {
   //Pick a random photo.
-  var numPhotos = 30;
+  var numPhotos = 40;
   var random = Math.floor((Math.random() * numPhotos) + 1);
 
   //Display the photo.

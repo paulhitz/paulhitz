@@ -55,6 +55,6 @@ a:link, a:visited {
  * The URL of links will be displayed after the link name.
  */
 a:link:after, a:visited:after {
-    content: " (" attr(href) ") ";
+    content: " (" attr(href) ")";
     font-size: 90%;
 }
