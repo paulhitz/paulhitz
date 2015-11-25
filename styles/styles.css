@@ -19,7 +19,7 @@ body {
 header {
     height: 100px;
     background-color: #222222;
-    background-image: url(../images/clouds_dark.png);
+    background-image: url(../images/clouds.png);
     background-repeat: repeat-x;
     border-width: 10px 0;
     border-color: #373737;
